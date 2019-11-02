@@ -1,0 +1,9 @@
+G:\项目\Components\src\Shawn.Common.Dapper\bin\Debug\netstandard2.0\Shawn.Common.Dapper.deps.json
+G:\项目\Components\src\Shawn.Common.Dapper\bin\Debug\netstandard2.0\Shawn.Common.Dapper.dll
+G:\项目\Components\src\Shawn.Common.Dapper\bin\Debug\netstandard2.0\Shawn.Common.Dapper.pdb
+G:\项目\Components\src\Shawn.Common.Dapper\obj\Debug\netstandard2.0\Shawn.Common.Dapper.csprojAssemblyReference.cache
+G:\项目\Components\src\Shawn.Common.Dapper\obj\Debug\netstandard2.0\Shawn.Common.Dapper.csproj.CoreCompileInputs.cache
+G:\项目\Components\src\Shawn.Common.Dapper\obj\Debug\netstandard2.0\Shawn.Common.Dapper.AssemblyInfoInputs.cache
+G:\项目\Components\src\Shawn.Common.Dapper\obj\Debug\netstandard2.0\Shawn.Common.Dapper.AssemblyInfo.cs
+G:\项目\Components\src\Shawn.Common.Dapper\obj\Debug\netstandard2.0\Shawn.Common.Dapper.dll
+G:\项目\Components\src\Shawn.Common.Dapper\obj\Debug\netstandard2.0\Shawn.Common.Dapper.pdb

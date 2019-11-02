@@ -30,3 +30,5 @@
 *.exe
 *.out
 *.app
+/src/.vs
+/src/Shawn.Common.Dapper/bin/Debug/netstandard2.0

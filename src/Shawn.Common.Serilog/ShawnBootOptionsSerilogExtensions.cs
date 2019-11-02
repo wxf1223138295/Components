@@ -11,10 +11,10 @@ namespace Shawn.Common.Serilog
     {
         public static ShawnBootOptions UseSerilog(this ShawnBootOptions configuration)
         {
-            configuration.IocManager.BuilderContainer
+            configuration._IocManager.BuilderContainer
                 .RegisterType<SerilogFactory>()
-                .As<ICommonLoggerFactory>()
-                .UsingConstructor(typeof(string),typeof(string));
+                .As<ICommonLoggerFactory>();
+               // .UsingConstructor(typeof(string),typeof(string));
             return configuration;
         }
     }

@@ -1,15 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29006.145
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shawn.Common.Ioc", "Shawn.Common.Ioc\Shawn.Common.Ioc.csproj", "{AB069692-B3FE-4D10-9055-5A9975A260AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shawn.Common.Ioc", "Shawn.Common.Ioc\Shawn.Common.Ioc.csproj", "{AB069692-B3FE-4D10-9055-5A9975A260AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shawn.Common.Serilog", "Shawn.Common.Serilog\Shawn.Common.Serilog.csproj", "{C7090B59-B95F-4ACA-A326-78D1BF88858E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shawn.Common.Serilog", "Shawn.Common.Serilog\Shawn.Common.Serilog.csproj", "{C7090B59-B95F-4ACA-A326-78D1BF88858E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shawn.Common.JsonConvert", "Shawn.Common.JsonConvert\Shawn.Common.JsonConvert.csproj", "{A9F894C2-6FFA-4FEF-9064-FBB20DC32E5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shawn.Common.JsonConvert", "Shawn.Common.JsonConvert\Shawn.Common.JsonConvert.csproj", "{A9F894C2-6FFA-4FEF-9064-FBB20DC32E5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shawn.Common.Dapper", "Shawn.Common.Dapper\Shawn.Common.Dapper.csproj", "{E218513A-CDC6-4E34-BB6F-9FBF6D74D59F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shawn.Common.Dapper", "Shawn.Common.Dapper\Shawn.Common.Dapper.csproj", "{E218513A-CDC6-4E34-BB6F-9FBF6D74D59F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestProject", "TestProject", "{8B380843-1E80-4614-9DE2-E9ED2B2E7337}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.WebApp", "TestProject\Test.WebApp\Test.WebApp.csproj", "{5516D3CF-79E3-409A-B71E-448412E26207}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.SericeProvide", "Test.SericeProvide\Test.SericeProvide.csproj", "{ADE3B88C-8CA5-45B1-AD15-BAD08DCC526D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +39,21 @@ Global
 		{E218513A-CDC6-4E34-BB6F-9FBF6D74D59F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E218513A-CDC6-4E34-BB6F-9FBF6D74D59F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E218513A-CDC6-4E34-BB6F-9FBF6D74D59F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5516D3CF-79E3-409A-B71E-448412E26207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5516D3CF-79E3-409A-B71E-448412E26207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5516D3CF-79E3-409A-B71E-448412E26207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5516D3CF-79E3-409A-B71E-448412E26207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADE3B88C-8CA5-45B1-AD15-BAD08DCC526D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE3B88C-8CA5-45B1-AD15-BAD08DCC526D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE3B88C-8CA5-45B1-AD15-BAD08DCC526D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE3B88C-8CA5-45B1-AD15-BAD08DCC526D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5516D3CF-79E3-409A-B71E-448412E26207} = {8B380843-1E80-4614-9DE2-E9ED2B2E7337}
+		{ADE3B88C-8CA5-45B1-AD15-BAD08DCC526D} = {8B380843-1E80-4614-9DE2-E9ED2B2E7337}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0574CB49-5110-4CCF-A2B1-3B328B791251}

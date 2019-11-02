@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\项目\\ShawnComponent\\CommonComponent\\Shawn.Common.JsonConvert\\Shawn.Common.JsonConvert.csproj",
+      "projectUniqueName": "G:\\项目\\Components\\src\\Shawn.Common.JsonConvert\\Shawn.Common.JsonConvert.csproj",
       "projectName": "Shawn.Common.JsonConvert",
-      "projectPath": "G:\\项目\\ShawnComponent\\CommonComponent\\Shawn.Common.JsonConvert\\Shawn.Common.JsonConvert.csproj",
+      "projectPath": "G:\\项目\\Components\\src\\Shawn.Common.JsonConvert\\Shawn.Common.JsonConvert.csproj",
       "packagesPath": "C:\\Users\\RICH-IT-DEV\\.nuget\\packages\\",
-      "outputPath": "G:\\项目\\ShawnComponent\\CommonComponent\\Shawn.Common.JsonConvert\\obj\\",
+      "outputPath": "G:\\项目\\Components\\src\\Shawn.Common.JsonConvert\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -203,13 +203,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
-        "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
-        "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
-        "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
-        "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
-        "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {

@@ -7,7 +7,12 @@ namespace Shawn.Common.Ioc.Options
 {
     public class ShawnBootOptions
     {
-        public IIocManager IocManager { get; set; }
+        public ShawnBootOptions()
+        {
+            _IocManager = IocManager.Instance;
+        }
+
+        public IIocManager _IocManager { get; set; }
 
 
     }

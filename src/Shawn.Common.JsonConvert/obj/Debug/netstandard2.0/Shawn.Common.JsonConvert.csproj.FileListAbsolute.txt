@@ -1,0 +1,9 @@
+G:\项目\Components\src\Shawn.Common.JsonConvert\bin\Debug\netstandard2.0\Shawn.Common.JsonConvert.deps.json
+G:\项目\Components\src\Shawn.Common.JsonConvert\bin\Debug\netstandard2.0\Shawn.Common.JsonConvert.dll
+G:\项目\Components\src\Shawn.Common.JsonConvert\bin\Debug\netstandard2.0\Shawn.Common.JsonConvert.pdb
+G:\项目\Components\src\Shawn.Common.JsonConvert\obj\Debug\netstandard2.0\Shawn.Common.JsonConvert.csprojAssemblyReference.cache
+G:\项目\Components\src\Shawn.Common.JsonConvert\obj\Debug\netstandard2.0\Shawn.Common.JsonConvert.csproj.CoreCompileInputs.cache
+G:\项目\Components\src\Shawn.Common.JsonConvert\obj\Debug\netstandard2.0\Shawn.Common.JsonConvert.AssemblyInfoInputs.cache
+G:\项目\Components\src\Shawn.Common.JsonConvert\obj\Debug\netstandard2.0\Shawn.Common.JsonConvert.AssemblyInfo.cs
+G:\项目\Components\src\Shawn.Common.JsonConvert\obj\Debug\netstandard2.0\Shawn.Common.JsonConvert.dll
+G:\项目\Components\src\Shawn.Common.JsonConvert\obj\Debug\netstandard2.0\Shawn.Common.JsonConvert.pdb
