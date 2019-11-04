@@ -4,6 +4,7 @@ using System.Text;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
+using Shawn.Common.Ioc.IocObject;
 
 namespace Shawn.Common.Ioc.CoreStart
 {
@@ -11,6 +12,7 @@ namespace Shawn.Common.Ioc.CoreStart
     {
         private readonly ContainerBuilder _builder;
         private IServiceCollection _services;
+
 
         public ShawnAutofacServiceProviderFactory(ContainerBuilder builder)
         {
@@ -20,13 +22,17 @@ namespace Shawn.Common.Ioc.CoreStart
         {
             _services = services;
             _builder.Populate(services);
-
             return _builder;
         }
 
         public IServiceProvider CreateServiceProvider(ContainerBuilder containerBuilder)
         {
-            return new AutofacServiceProvider(containerBuilder.Build());
+            var buidlerBuild=containerBuilder.Build();
+
+             var imanager=  (IIocManager)buidlerBuild.Resolve(typeof(IIocManager));
+
+             imanager.SetContainer(buidlerBuild);
+            return new AutofacServiceProvider(buidlerBuild);
         }
     }
 }

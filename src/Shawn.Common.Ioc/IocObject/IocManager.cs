@@ -13,12 +13,17 @@ namespace Shawn.Common.Ioc.IocObject
         public static IocManager Instance { get; private set; }
 
         public ContainerBuilder BuilderContainer { get; private set; }
+        public void SetContainer(IContainer _container)
+        {
+            iContainer = _container;
+        }
+
         static IocManager()
         {
             Instance = new IocManager();
         }
       
-        public IContainer Icontainer { get; private set; }
+        public IContainer iContainer { get; private set; }
         public IocManager()
         {
             BuilderContainer = new ContainerBuilder();
@@ -30,7 +35,7 @@ namespace Shawn.Common.Ioc.IocObject
         }
         public void Dispose()
         {
-            Icontainer.Dispose();
+            iContainer.Dispose();
         }
 
 

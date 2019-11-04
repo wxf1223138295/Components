@@ -12,10 +12,10 @@ namespace Shawn.Common.Ioc.IocObject
     /// </summary>
     public interface IIocManager:IDisposable
     {
-        IContainer Icontainer { get; }
-
+        IContainer iContainer { get; }
         ContainerBuilder BuilderContainer { get; }
 
+        void SetContainer(IContainer _container);
         //IWindsorContainer AddFacility<TFacility>(Action<TFacility> onCreate) where TFacility : IFacility, new();
     }
 }

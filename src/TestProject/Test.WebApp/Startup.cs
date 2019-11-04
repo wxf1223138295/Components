@@ -43,7 +43,7 @@ namespace Test.WebApp
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
-            services.AddShawnService(option =>
+           return  services.AddShawnService(option =>
             {
                 //添加自己的服务
                 option._IocManager.BuilderContainer.AddMyServices();
@@ -51,7 +51,7 @@ namespace Test.WebApp
                 option.UseSerilog();
             });
 
-            return services.BuildServiceProvider();
+            //return services.BuildShawnServiceProvider();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -79,8 +79,13 @@ namespace Test.WebApp
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
 
-            var ser= (ShawnBootstrapper)provider.GetService(typeof(ShawnBootstrapper));
-            ser.IocManager.Icontainer.Resolve<ITestAppService>();
+            //var ser= (ITestAppService)provider.GetService(typeof(ITestAppService));
+
+            //var boo=(ShawnBootstrapper) provider.GetService(typeof(ShawnBootstrapper));
+
+            //var t=ser.ttt();
+
+            //var tty=boo.IocManager.iContainer.Resolve<ITestAppService>().ttt();
         }
     }
 }
