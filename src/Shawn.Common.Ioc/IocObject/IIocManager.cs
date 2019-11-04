@@ -16,6 +16,6 @@ namespace Shawn.Common.Ioc.IocObject
         ContainerBuilder BuilderContainer { get; }
 
         void SetContainer(IContainer _container);
-        //IWindsorContainer AddFacility<TFacility>(Action<TFacility> onCreate) where TFacility : IFacility, new();
+
     }
 }
