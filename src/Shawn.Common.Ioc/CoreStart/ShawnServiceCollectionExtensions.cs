@@ -22,6 +22,7 @@ namespace Shawn.Common.Ioc.CoreStart
                 .IocManager.BuilderContainer);
             
             services.AddSingleton(obj);
+            
 
             var t=obj.CreateBuilder(services);
             var provide=obj.CreateServiceProvider(t);
