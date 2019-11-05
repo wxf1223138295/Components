@@ -17,7 +17,6 @@ namespace Shawn.Common.Serilog
 
                pathname = Path.Combine($"{directory}", "Logs", $"log.txt");
             }
-
             return new SerilogLoger(templateStr, pathname);
         }
     }

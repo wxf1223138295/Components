@@ -10,10 +10,16 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Console.Internal;
+using Serilog;
+using Serilog.Extensions.Logging;
 using Shawn.Common.Ioc;
 using Shawn.Common.Ioc.CoreStart;
+using Shawn.Common.Ioc.Logging;
 using Shawn.Common.Serilog;
 using Test.WebApp.Service;
+using ILogger = Microsoft.Extensions.Logging.ILogger;
 
 namespace Test.WebApp
 {
@@ -24,9 +30,10 @@ namespace Test.WebApp
             Configuration = configuration;
         }
 
+        public ILogger Logger;
         public IConfiguration Configuration { get; }
 
-         
+
         // This method gets called by the runtime. Use this method to add services to the container.
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
@@ -38,24 +45,24 @@ namespace Test.WebApp
             });
 
 
-           
+            //services.AddSingleton<ILoggerFactory>(new SerilogLoggerFactory());
 
+            services.AddLogging(p => p.AddConsole());
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
-           return  services.AddShawnService(option =>
+            return services.AddShawnService(option =>
             {
                 //添加自己的服务
                 option._IocManager.BuilderContainer.AddMyServices();
                 //注入日志
-                option.UseSerilog();
             });
 
             //return services.BuildShawnServiceProvider();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, IServiceProvider provider)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, IServiceProvider provider, ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
             {
@@ -67,7 +74,7 @@ namespace Test.WebApp
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-           
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
@@ -79,11 +86,19 @@ namespace Test.WebApp
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
 
-            //var ser= (ITestAppService)provider.GetService(typeof(ITestAppService));
+            loggerFactory.AddSerilog();
+
+
+            var logs = loggerFactory.CreateLogger("sd");
+
+            
+            loggerFactory.CreateLogger("2");
+
+            //  var ser= (ITestAppService)provider.GetService(typeof(ITestAppService));
 
             //var boo=(ShawnBootstrapper) provider.GetService(typeof(ShawnBootstrapper));
 
-            //var t=ser.ttt();
+            //  var t=ser.ttt();
 
             //var tty=boo.IocManager.iContainer.Resolve<ITestAppService>().ttt();
         }

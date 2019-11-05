@@ -1,9 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Microsoft.Extensions.Logging;
 
 namespace Shawn.Common.Ioc.Logging
 {
+    /// <summary>
+    /// 集成依赖注入框架
+    /// </summary>
     public interface ICommonLogger
     {
         void Debug(string message);
