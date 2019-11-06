@@ -978,11 +978,12 @@
       ]
     },
     "Microsoft.Win32.Registry/4.4.0": {
-      "sha512": "dA36TlNVn/XfrZtmf0fiI/z1nd3Wfp2QVzTdj26pqgP9LFWq0i1hYEUAW50xUjGFYn1+/cP3KGuxT2Yn1OUNBQ==",
+      "sha512": "LJh1PSoqdugrCv7t+k2B919GGdq4PyrntPVlMCMrcz59nsjOstYmtGWSCiFZ3UNpxv2dlsZdcLzJ847uyOlaEA==",
       "type": "package",
       "path": "microsoft.win32.registry/4.4.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net46/Microsoft.Win32.Registry.dll",
@@ -2664,11 +2665,12 @@
       ]
     },
     "System.Security.AccessControl/4.4.0": {
-      "sha512": "2NRFPX/V81ucKQmqNgGBZrKGH/5ejsvivSGMRum0SMgPnJxwhuNkzVS1+7gC3R2X0f57CtwrPrXPPSe6nOp82g==",
+      "sha512": "UPF+s4KctOCpk7dpBe3QtZ1AzFEHKdhOtiNDLxGnD/nxKsVbsow5OClTy8c7yOObw/Evbv95xRwZfYZ4wLV4fA==",
       "type": "package",
       "path": "system.security.accesscontrol/4.4.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net46/System.Security.AccessControl.dll",
@@ -2703,11 +2705,12 @@
       ]
     },
     "System.Security.Principal.Windows/4.4.0": {
-      "sha512": "pP+AOzt1o3jESOuLmf52YQTF7H3Ng9hTnrOESQiqsnl2IbBh1HInsAMHYtoh75iUYV0OIkHmjvveraYB6zM97w==",
+      "sha512": "ynC5BKYwhgON6WH/yPM5ZLKc19wqC13A5fl4hZa5Lf8pQwv1YmbCPKGualWSRhEoOVWH2FzZhOXauER6al4Upg==",
       "type": "package",
       "path": "system.security.principal.windows/4.4.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net46/System.Security.Principal.Windows.dll",
@@ -2809,11 +2812,12 @@
       ]
     },
     "System.Text.Encoding.CodePages/4.4.0": {
-      "sha512": "6JX7ZdaceBiLKLkYt8zJcp4xTJd1uYyXXEkPw6mnlUIjh1gZPIVKPtRXPmY5kLf6DwZmf5YLwR3QUrRonl7l0A==",
+      "sha512": "FpAgMC+BX6OOCiRebYqHP3r3aYU7o0lopPOo4zKyGc5LWXFEYRUaKtoXXvAJ3sP+IDOK/KBxZaiVAdi+QdZ0TA==",
       "type": "package",
       "path": "system.text.encoding.codepages/4.4.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
@@ -3133,28 +3137,30 @@
     ]
   },
   "packageFolders": {
-    "/Users/wangxiaofeng/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\RICH-IT-DEV\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Serilog/Shawn.Common.Serilog.csproj",
+      "projectUniqueName": "G:\\项目\\Components\\src\\Shawn.Common.Serilog\\Shawn.Common.Serilog.csproj",
       "projectName": "Shawn.Common.Serilog",
-      "projectPath": "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Serilog/Shawn.Common.Serilog.csproj",
-      "packagesPath": "/Users/wangxiaofeng/.nuget/packages/",
-      "outputPath": "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Serilog/obj/",
+      "projectPath": "G:\\项目\\Components\\src\\Shawn.Common.Serilog\\Shawn.Common.Serilog.csproj",
+      "packagesPath": "C:\\Users\\RICH-IT-DEV\\.nuget\\packages\\",
+      "outputPath": "G:\\项目\\Components\\src\\Shawn.Common.Serilog\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/wangxiaofeng/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\RICH-IT-DEV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
         "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
@@ -3166,8 +3172,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Ioc/Shawn.Common.Ioc.csproj": {
-              "projectPath": "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Ioc/Shawn.Common.Ioc.csproj"
+            "G:\\项目\\Components\\src\\Shawn.Common.Ioc\\Shawn.Common.Ioc.csproj": {
+              "projectPath": "G:\\项目\\Components\\src\\Shawn.Common.Ioc\\Shawn.Common.Ioc.csproj"
             }
           }
         }

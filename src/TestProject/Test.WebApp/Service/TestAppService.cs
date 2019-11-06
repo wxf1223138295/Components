@@ -7,18 +7,36 @@ using Shawn.Common.Ioc.Logging;
 
 namespace Test.WebApp.Service
 {
+    public class testlog
+    {
+        public string User { get; set; }
+    }
     public class TestAppService:ITestAppService
     {
-        private ILogger _logger;
+        public Serilog.ILogger _logger;
 
-        public TestAppService(ILogger logger)
+        public ILogger<TestAppService> _ZidLogger;
+
+        public TestAppService(Serilog.ILogger log,ILogger<TestAppService> ZidLogger)
         {
-            _logger = logger;
+            _logger = log;
+            _ZidLogger = ZidLogger;
         }
 
         public string ttt()
         {
+
+            _logger.Error("222222222");
+
+           var logobj= new testlog
+            {
+                User = "444545Shawn"
+            };
+
+            _logger.Error(new Exception("sdsds"),"test", logobj);
+
+
             return "sssdd";
-        }
+            }
     }
 }

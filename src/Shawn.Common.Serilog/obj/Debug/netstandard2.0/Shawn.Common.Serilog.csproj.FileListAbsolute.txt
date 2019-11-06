@@ -3,18 +3,6 @@ G:/项目/ShawnComponent/CommonComponent/Shawn.Common.Serilog/obj/Debug/netstand
 G:/项目/ShawnComponent/CommonComponent/Shawn.Common.Serilog/obj/Debug/netstandard2.0/Shawn.Common.Serilog.csproj.CoreCompileInputs.cache
 G:/项目/ShawnComponent/CommonComponent/Shawn.Common.Serilog/obj/Debug/netstandard2.0/Shawn.Common.Serilog.AssemblyInfoInputs.cache
 G:/项目/ShawnComponent/CommonComponent/Shawn.Common.Serilog/obj/Debug/netstandard2.0/Shawn.Common.Serilog.AssemblyInfo.cs
-G:/项目/Components/src/Shawn.Common.Serilog/bin/Debug/netstandard2.0/Shawn.Common.Serilog.deps.json
-G:/项目/Components/src/Shawn.Common.Serilog/bin/Debug/netstandard2.0/Shawn.Common.Serilog.dll
-G:/项目/Components/src/Shawn.Common.Serilog/bin/Debug/netstandard2.0/Shawn.Common.Serilog.pdb
-G:/项目/Components/src/Shawn.Common.Serilog/bin/Debug/netstandard2.0/Shawn.Common.Ioc.dll
-G:/项目/Components/src/Shawn.Common.Serilog/bin/Debug/netstandard2.0/Shawn.Common.Ioc.pdb
-G:/项目/Components/src/Shawn.Common.Serilog/obj/Debug/netstandard2.0/Shawn.Common.Serilog.csprojAssemblyReference.cache
-G:/项目/Components/src/Shawn.Common.Serilog/obj/Debug/netstandard2.0/Shawn.Common.Serilog.csproj.CoreCompileInputs.cache
-G:/项目/Components/src/Shawn.Common.Serilog/obj/Debug/netstandard2.0/Shawn.Common.Serilog.AssemblyInfoInputs.cache
-G:/项目/Components/src/Shawn.Common.Serilog/obj/Debug/netstandard2.0/Shawn.Common.Serilog.AssemblyInfo.cs
-G:/项目/Components/src/Shawn.Common.Serilog/obj/Debug/netstandard2.0/Shawn.Common.Serilog.csproj.CopyComplete
-G:/项目/Components/src/Shawn.Common.Serilog/obj/Debug/netstandard2.0/Shawn.Common.Serilog.dll
-G:/项目/Components/src/Shawn.Common.Serilog/obj/Debug/netstandard2.0/Shawn.Common.Serilog.pdb
 /Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Serilog/bin/Debug/netstandard2.0/Shawn.Common.Serilog.deps.json
 /Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Serilog/bin/Debug/netstandard2.0/Shawn.Common.Serilog.dll
 /Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Serilog/bin/Debug/netstandard2.0/Shawn.Common.Serilog.pdb
@@ -27,3 +15,15 @@ G:/项目/Components/src/Shawn.Common.Serilog/obj/Debug/netstandard2.0/Shawn.Com
 /Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Serilog/obj/Debug/netstandard2.0/Shawn.Common.Serilog.csproj.CopyComplete
 /Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Serilog/obj/Debug/netstandard2.0/Shawn.Common.Serilog.dll
 /Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Serilog/obj/Debug/netstandard2.0/Shawn.Common.Serilog.pdb
+G:\项目\Components\src\Shawn.Common.Serilog\obj\Debug\netstandard2.0\Shawn.Common.Serilog.csproj.CoreCompileInputs.cache
+G:\项目\Components\src\Shawn.Common.Serilog\obj\Debug\netstandard2.0\Shawn.Common.Serilog.AssemblyInfoInputs.cache
+G:\项目\Components\src\Shawn.Common.Serilog\obj\Debug\netstandard2.0\Shawn.Common.Serilog.AssemblyInfo.cs
+G:\项目\Components\src\Shawn.Common.Serilog\obj\Debug\netstandard2.0\Shawn.Common.Serilog.dll
+G:\项目\Components\src\Shawn.Common.Serilog\obj\Debug\netstandard2.0\Shawn.Common.Serilog.pdb
+G:\项目\Components\src\Shawn.Common.Serilog\bin\Debug\netstandard2.0\Shawn.Common.Serilog.deps.json
+G:\项目\Components\src\Shawn.Common.Serilog\bin\Debug\netstandard2.0\Shawn.Common.Serilog.dll
+G:\项目\Components\src\Shawn.Common.Serilog\bin\Debug\netstandard2.0\Shawn.Common.Serilog.pdb
+G:\项目\Components\src\Shawn.Common.Serilog\bin\Debug\netstandard2.0\Shawn.Common.Ioc.dll
+G:\项目\Components\src\Shawn.Common.Serilog\bin\Debug\netstandard2.0\Shawn.Common.Ioc.pdb
+G:\项目\Components\src\Shawn.Common.Serilog\obj\Debug\netstandard2.0\Shawn.Common.Serilog.csproj.CopyComplete
+G:\项目\Components\src\Shawn.Common.Serilog\obj\Debug\netstandard2.0\Shawn.Common.Serilog.csprojAssemblyReference.cache

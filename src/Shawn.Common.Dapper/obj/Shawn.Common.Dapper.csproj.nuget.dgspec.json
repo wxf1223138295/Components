@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Dapper/Shawn.Common.Dapper.csproj": {}
+    "G:\\项目\\Components\\src\\Shawn.Common.Dapper\\Shawn.Common.Dapper.csproj": {}
   },
   "projects": {
-    "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Dapper/Shawn.Common.Dapper.csproj": {
+    "G:\\项目\\Components\\src\\Shawn.Common.Dapper\\Shawn.Common.Dapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Dapper/Shawn.Common.Dapper.csproj",
+        "projectUniqueName": "G:\\项目\\Components\\src\\Shawn.Common.Dapper\\Shawn.Common.Dapper.csproj",
         "projectName": "Shawn.Common.Dapper",
-        "projectPath": "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Dapper/Shawn.Common.Dapper.csproj",
-        "packagesPath": "/Users/wangxiaofeng/.nuget/packages/",
-        "outputPath": "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Dapper/obj/",
+        "projectPath": "G:\\项目\\Components\\src\\Shawn.Common.Dapper\\Shawn.Common.Dapper.csproj",
+        "packagesPath": "C:\\Users\\RICH-IT-DEV\\.nuget\\packages\\",
+        "outputPath": "G:\\项目\\Components\\src\\Shawn.Common.Dapper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/wangxiaofeng/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\RICH-IT-DEV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
           "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},

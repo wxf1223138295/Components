@@ -25,13 +25,13 @@ namespace Test.WebApp
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration, Serilog.ILogger log)
+        public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-            _logger = log;
+
         }
 
-        public Serilog.ILogger _logger;
+      
         public IConfiguration Configuration { get; }
 
 
@@ -59,11 +59,11 @@ namespace Test.WebApp
 
                 option.UseSerilog(p =>
                 {
-                    p.pathName = "";
-                    p.strTempName = "[{Timestamp:yyyy-MM-dd HH:mm:ss.fff}] level: {Level:u4}, {Message:l}{NewLine}";
-                    p.logminEvent=Serilog.Events.LogEventLevel.Information;
+                    p.pathName = "C:\\Users\\RICH-IT-DEV\\Desktop\\Log.txt";
+                    p.strTempName = "[{Timestamp:yyyy-MM-dd HH:mm:ss.fff}] {SourceContext} level: {Level:u4}, {Message:l}{NewLine}";
+                    p.logminEvent=Serilog.Events.LogEventLevel.Debug;
                     p.logTableName="LogSerilog";
-                    p.logConnectstr=Configuration.GetValue<string>("DefaultConnectStr");
+                    p.logConnectstr = Configuration["ConnectionStrings:Default"];
                 });
 
 
@@ -102,17 +102,17 @@ namespace Test.WebApp
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
 
+            var boo=(ShawnBootstrapper) provider.GetService(typeof(ShawnBootstrapper));
+            var tty =boo.IocManager.iContainer.Resolve<ITestAppService>().ttt();
 
-            _logger.Debug("mesddds");
-
-
+            boo.IocManager.iContainer.Resolve<Serilog.ILogger>().Error("start");
             //  var ser= (ITestAppService)provider.GetService(typeof(ITestAppService));
 
-            //var boo=(ShawnBootstrapper) provider.GetService(typeof(ShawnBootstrapper));
 
-            //  var t=ser.ttt();
 
-            //var tty=boo.IocManager.iContainer.Resolve<ITestAppService>().ttt();
+
+
+
         }
     }
 }

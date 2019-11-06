@@ -21,9 +21,9 @@ namespace Shawn.Common.Serilog
         
             var logger = new SerilogFactory().Create(SerilogAction);
 
-            options._IocManager.BuilderContainer.RegisterLogger(logger,autowireProperties:true);
+            options._IocManager.BuilderContainer.RegisterLogger(logger, true,true);
 
-            options._iServiceCollection.AddSingleton(new SerilogLoggerFactory(logger));
+            //options._iServiceCollection.AddSingleton(new SerilogLoggerFactory(logger));
 
             
             return options;
