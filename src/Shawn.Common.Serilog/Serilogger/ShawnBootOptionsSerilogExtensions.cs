@@ -1,20 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Text;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Serilog;
+using Serilog.Core;
+using Serilog.Events;
 using Serilog.Extensions.Logging;
+using Shawn.Common.Ioc.Options;
 using ILogger = Microsoft.Extensions.Logging.ILogger;
 
 namespace Shawn.Common.Serilog
 {
     public static class ShawnBootOptionsSerilogExtensions
     {
-        public static LoggerFactory UseSerilog(this LoggerFactory factory,Action<SerilogOption> SerilogAction)
+        public static ShawnBootOptions UseSerilog(this ShawnBootOptions options,Action<SerilogOption> SerilogAction)
         {
-           // SerilogLoggerFactory
-           //factory.AddSerilog(d);
-            return factory;
+
+            var logger = new SerilogFactory().Create(SerilogAction);
+
+            options._iServiceCollection.AddSingleton(new SerilogLoggerFactory(logger));
+
+            return options;
         }
     }
 }

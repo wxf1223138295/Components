@@ -3,21 +3,25 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Xml.XPath;
+using Serilog;
 using Shawn.Common.Ioc.Logging;
 
 namespace Shawn.Common.Serilog
 {
-    public class SerilogFactory : ICommonLoggerFactory
+    public class SerilogFactory 
     {
-        public ICommonLogger Create(string pathname = "", string templateStr = "[{Timestamp:yyyy-MM-dd HH:mm:ss.fff}] level: {Level:u4}, {Message:l}{NewLine}")
+        public ILogger Create(Action<SerilogOption> optins)
         {
-            if (string.IsNullOrEmpty(pathname))
+            SerilogOption opt=new SerilogOption();
+            optins?.Invoke(opt);
+
+            if (string.IsNullOrEmpty(opt.pathName))
             {
                var directory = AppDomain.CurrentDomain.BaseDirectory;
 
-               pathname = Path.Combine($"{directory}", "Logs", $"log.txt");
+               opt.pathName = Path.Combine($"{directory}", "Logs", $"log.txt");
             }
-            return new SerilogLoger(templateStr, pathname);
+            return new SerilogLoger(opt.strTempName, opt.pathName);
         }
     }
 }

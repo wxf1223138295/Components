@@ -14,7 +14,8 @@ namespace Shawn.Common.Ioc.CoreStart
     {
         public static IServiceProvider AddShawnService(this IServiceCollection services, Action<ShawnBootOptions> optionsAction)
         {
-            var shawnBootstrapper = ShawnBootstrapper.Create(optionsAction);
+            var shawnBootstrapper = ShawnBootstrapper.Create(optionsAction, services);
+
             //services.AddOptions();
             services.AddSingleton(shawnBootstrapper);
     

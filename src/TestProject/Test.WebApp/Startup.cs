@@ -25,12 +25,13 @@ namespace Test.WebApp
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public Startup(IConfiguration configuration, ILogger<Startup> log)
         {
             Configuration = configuration;
+            _logger = log;
         }
 
-        public ILogger Logger;
+        public ILogger _logger;
         public IConfiguration Configuration { get; }
 
 
@@ -45,7 +46,7 @@ namespace Test.WebApp
             });
 
 
-            //services.AddSingleton<ILoggerFactory>(new SerilogLoggerFactory());
+           
 
             services.AddLogging(p => p.AddConsole());
 
@@ -54,7 +55,19 @@ namespace Test.WebApp
             return services.AddShawnService(option =>
             {
                 //添加自己的服务
+               
+
+                option.UseSerilog(p =>
+                {
+                    p.pathName = "";
+                    p.strTempName = "[{Timestamp:yyyy-MM-dd HH:mm:ss.fff}] level: {Level:u4}, {Message:l}{NewLine}";
+                });
+
+
                 option._IocManager.BuilderContainer.AddMyServices();
+
+                
+
                 //注入日志
             });
 
@@ -86,13 +99,10 @@ namespace Test.WebApp
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
 
-            loggerFactory.AddSerilog();
 
 
-            var logs = loggerFactory.CreateLogger("sd");
+            _logger.Debug("");
 
-            
-            loggerFactory.CreateLogger("2");
 
             //  var ser= (ITestAppService)provider.GetService(typeof(ITestAppService));
 
