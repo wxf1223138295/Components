@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Text;
 
 namespace Shawn.Common.Dapper.DapperExt
 {
-    public abstract class DapperHelper
+    public interface IDbConnectFactory
     {
+        IDbConnection iDbConnection { get; set; }
+
     }
 }
