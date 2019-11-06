@@ -16,8 +16,6 @@ namespace Shawn.Common.Ioc.CoreStart
         {
             var shawnBootstrapper = ShawnBootstrapper.Create(optionsAction, services);
 
-
-            //services.AddOptions();
             services.AddSingleton(shawnBootstrapper);
     
             var obj=  new ShawnAutofacServiceProviderFactory(shawnBootstrapper

@@ -17,36 +17,40 @@ namespace Shawn.Common.Serilog
 {
     public class SerilogLoger
     {
-        public static ILogger CreateSerilog(string templateStr, string pathname,string logconnectstr,string tablename,LogEventLevel sqllogminlevel)
+        public static ILogger CreateSerilog(string templateStr, string pathname,string logconnectstr,string tablename,LogEventLevel consoleminEvent, LogEventLevel debugminEvent, LogEventLevel fileminEvent, LogEventLevel mssminEvent, ColumnOptions columnoptions,string msgtemp,bool needToConsole,bool needToDebug,bool needToMSS)
         {
-            var columnOptions = new ColumnOptions // 自定义字段
-            {
-                AdditionalDataColumns = new Collection<DataColumn>
-                {
-                    new DataColumn {DataType = typeof (string), ColumnName = "User"}
-                }
-            };
-            Log.Logger = new LoggerConfiguration()
+
+            var logConfiguration = new LoggerConfiguration()
                 .Enrich.WithProperty("SourceContext", null)
-                .WriteTo.MSSqlServer(logconnectstr, tablename,columnOptions: columnOptions, restrictedToMinimumLevel: sqllogminlevel,autoCreateSqlTable:true)
+                //必须写文件
                 .WriteTo.File(pathname,
                     shared: true,
                     rollingInterval: RollingInterval.Day,
                     retainedFileCountLimit: 6,
                     outputTemplate: templateStr,
-                    restrictedToMinimumLevel: LogEventLevel.Information)
-                .WriteTo.Console(theme:AnsiConsoleTheme.Code, outputTemplate: "[{Timestamp:HH:mm:ss} {Level:u3}] {Message:lj}{NewLine}{Exception}")
-                .CreateLogger();
+                    restrictedToMinimumLevel: fileminEvent);
 
+            if (needToConsole)
+            {
+                logConfiguration.WriteTo.Console(theme: AnsiConsoleTheme.Code,
+                    outputTemplate: "[{Timestamp:HH:mm:ss} {Level:u3}] {Message:lj}{NewLine}{Exception}",
+                    restrictedToMinimumLevel: consoleminEvent);
+            }
 
-            var strs = "User: {User}";
-            object[] para = new object[] {"Shawn" };
+            if (needToDebug)
+            {
+                logConfiguration.WriteTo.Debug(outputTemplate: "[{Timestamp:HH:mm:ss} {Level:u3}] {Message:lj}{NewLine}{Exception}",
+                    restrictedToMinimumLevel: debugminEvent);
+            }
 
-           
+            if (needToMSS)
+            {
+                logConfiguration.WriteTo.MSSqlServer(logconnectstr, tablename, columnOptions: columnoptions,
+                    restrictedToMinimumLevel: mssminEvent, autoCreateSqlTable: true);
+            }
+            
+             Log.Logger= logConfiguration.CreateLogger();
 
-            Log.Logger.Error(strs, para);
-
-         
             return Log.Logger;
         }
      

@@ -4,24 +4,25 @@ using System.IO;
 using System.Text;
 using System.Xml.XPath;
 using Serilog;
+using Serilog.Core;
 using Shawn.Common.Ioc.Logging;
 
 namespace Shawn.Common.Serilog
 {
-    public class SerilogFactory 
+    public class SerilogFactory
     {
-        public ILogger Create(Action<SerilogOption> optins)
+        public ILogger Create(SerilogOption optins)
         {
-            SerilogOption opt=new SerilogOption();
-            optins?.Invoke(opt);
+          
 
-            if (string.IsNullOrEmpty(opt.pathName))
+            if (string.IsNullOrEmpty(optins.pathName))
             {
                var directory = AppDomain.CurrentDomain.BaseDirectory;
 
-               opt.pathName = Path.Combine($"{directory}", "Logs", $"log.txt");
+               optins.pathName = Path.Combine($"{directory}", "Logs", $"log.txt");
             }
-            return SerilogLoger.CreateSerilog(opt.strTempName, opt.pathName,opt.logConnectstr,opt.logTableName,opt.logminEvent);
+
+            return SerilogLoger.CreateSerilog(optins.strTempName, optins.pathName,optins.logConnectstr,optins.logTableName,optins.consoleminEvent, optins.debugminEvent, optins.fileminEvent,optins.mssminEvent,optins.columnOptions,optins.msgTemp,optins.NeedToConsole,optins.NeedToDebug,optins.NeedToMSS);
         }
     }
 }

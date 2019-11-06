@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using Autofac;
@@ -14,6 +16,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Console.Internal;
 using Serilog;
 using Serilog.Extensions.Logging;
+using Serilog.Sinks.MSSqlServer;
 using Shawn.Common.Ioc;
 using Shawn.Common.Ioc.CoreStart;
 using Shawn.Common.Ioc.Logging;
@@ -55,26 +58,42 @@ namespace Test.WebApp
             return services.AddShawnService(option =>
             {
                 //添加自己的服务
-               
+                option._IocManager.BuilderContainer.AddMyServices();
 
+
+                var columnOptions = new ColumnOptions // 自定义字段
+                {
+                    AdditionalDataColumns = new Collection<DataColumn>
+                    {
+                        new DataColumn {DataType = typeof (string), ColumnName = "User"},
+                        new DataColumn {DataType = typeof (string), ColumnName = "TraceId"}
+                    }
+                };
+                //注入日志
                 option.UseSerilog(p =>
                 {
                     p.pathName = "C:\\Users\\RICH-IT-DEV\\Desktop\\Log.txt";
                     p.strTempName = "[{Timestamp:yyyy-MM-dd HH:mm:ss.fff}] {SourceContext} level: {Level:u4}, {Message:l}{NewLine}";
-                    p.logminEvent=Serilog.Events.LogEventLevel.Debug;
+                    p.debugminEvent=Serilog.Events.LogEventLevel.Debug;
+                    p.consoleminEvent = Serilog.Events.LogEventLevel.Verbose;
+                    p.mssminEvent = Serilog.Events.LogEventLevel.Verbose;
+
+                    p.msgTemp = "User: {User} TraceId:{TraceId}";
                     p.logTableName="LogSerilog";
+                    //默认false
+                    p.NeedToConsole = true;
+                    p.NeedToDebug = true;
+                    p.NeedToMSS = true;
                     p.logConnectstr = Configuration["ConnectionStrings:Default"];
                 });
 
 
-                option._IocManager.BuilderContainer.AddMyServices();
+             
 
                 
 
-                //注入日志
+    
             });
-
-            //return services.BuildShawnServiceProvider();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -106,7 +125,7 @@ namespace Test.WebApp
             var tty =boo.IocManager.iContainer.Resolve<ITestAppService>().ttt();
 
             boo.IocManager.iContainer.Resolve<Serilog.ILogger>().Error("start");
-            //  var ser= (ITestAppService)provider.GetService(typeof(ITestAppService));
+
 
 
 
