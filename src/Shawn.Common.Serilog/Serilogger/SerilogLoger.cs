@@ -13,11 +13,11 @@ namespace Shawn.Common.Serilog
 {
     public class SerilogLoger
     {
-        public Logger CreateSerilog(string templateStr, string pathname)
+        public static Logger CreateSerilog(string templateStr, string pathname,string logconnectstr,string tablename,LogEventLevel sqllogminlevel)
         {
-            Logger sd = new LoggerConfiguration()
+            Logger _serlog = new LoggerConfiguration()
                 .WriteTo.Console()
-                //.WriteTo.MSSqlServer()
+                //.WriteTo.MSSqlServer(logconnectstr,tablename,null,sqllogminlevel,autoCreateSqlTable:true)
                 .WriteTo.File(pathname,
                     shared: true,
                     rollingInterval: RollingInterval.Day,
@@ -25,7 +25,7 @@ namespace Shawn.Common.Serilog
                     outputTemplate: templateStr
                     , restrictedToMinimumLevel: LogEventLevel.Error)
                 .CreateLogger();
-            return sd;
+            return _serlog;
         }
      
     }

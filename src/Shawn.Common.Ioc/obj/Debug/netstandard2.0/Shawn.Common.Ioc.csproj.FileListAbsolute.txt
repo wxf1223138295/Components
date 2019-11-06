@@ -1,15 +1,24 @@
-G:\项目\ShawnComponent\CommonComponent\Shawn.Common.Ioc\bin\Debug\netstandard2.0\Shawn.Common.Ioc.deps.json
-G:\项目\ShawnComponent\CommonComponent\Shawn.Common.Ioc\bin\Debug\netstandard2.0\Shawn.Common.Ioc.dll
-G:\项目\ShawnComponent\CommonComponent\Shawn.Common.Ioc\obj\Debug\netstandard2.0\Shawn.Common.Ioc.csprojAssemblyReference.cache
-G:\项目\ShawnComponent\CommonComponent\Shawn.Common.Ioc\obj\Debug\netstandard2.0\Shawn.Common.Ioc.csproj.CoreCompileInputs.cache
-G:\项目\ShawnComponent\CommonComponent\Shawn.Common.Ioc\obj\Debug\netstandard2.0\Shawn.Common.Ioc.AssemblyInfoInputs.cache
-G:\项目\ShawnComponent\CommonComponent\Shawn.Common.Ioc\obj\Debug\netstandard2.0\Shawn.Common.Ioc.AssemblyInfo.cs
-G:\项目\Components\src\Shawn.Common.Ioc\bin\Debug\netstandard2.0\Shawn.Common.Ioc.deps.json
-G:\项目\Components\src\Shawn.Common.Ioc\bin\Debug\netstandard2.0\Shawn.Common.Ioc.dll
-G:\项目\Components\src\Shawn.Common.Ioc\obj\Debug\netstandard2.0\Shawn.Common.Ioc.csprojAssemblyReference.cache
-G:\项目\Components\src\Shawn.Common.Ioc\obj\Debug\netstandard2.0\Shawn.Common.Ioc.csproj.CoreCompileInputs.cache
-G:\项目\Components\src\Shawn.Common.Ioc\obj\Debug\netstandard2.0\Shawn.Common.Ioc.AssemblyInfoInputs.cache
-G:\项目\Components\src\Shawn.Common.Ioc\obj\Debug\netstandard2.0\Shawn.Common.Ioc.AssemblyInfo.cs
-G:\项目\Components\src\Shawn.Common.Ioc\bin\Debug\netstandard2.0\Shawn.Common.Ioc.pdb
-G:\项目\Components\src\Shawn.Common.Ioc\obj\Debug\netstandard2.0\Shawn.Common.Ioc.dll
-G:\项目\Components\src\Shawn.Common.Ioc\obj\Debug\netstandard2.0\Shawn.Common.Ioc.pdb
+G:/项目/ShawnComponent/CommonComponent/Shawn.Common.Ioc/bin/Debug/netstandard2.0/Shawn.Common.Ioc.deps.json
+G:/项目/ShawnComponent/CommonComponent/Shawn.Common.Ioc/bin/Debug/netstandard2.0/Shawn.Common.Ioc.dll
+G:/项目/ShawnComponent/CommonComponent/Shawn.Common.Ioc/obj/Debug/netstandard2.0/Shawn.Common.Ioc.csprojAssemblyReference.cache
+G:/项目/ShawnComponent/CommonComponent/Shawn.Common.Ioc/obj/Debug/netstandard2.0/Shawn.Common.Ioc.csproj.CoreCompileInputs.cache
+G:/项目/ShawnComponent/CommonComponent/Shawn.Common.Ioc/obj/Debug/netstandard2.0/Shawn.Common.Ioc.AssemblyInfoInputs.cache
+G:/项目/ShawnComponent/CommonComponent/Shawn.Common.Ioc/obj/Debug/netstandard2.0/Shawn.Common.Ioc.AssemblyInfo.cs
+G:/项目/Components/src/Shawn.Common.Ioc/bin/Debug/netstandard2.0/Shawn.Common.Ioc.deps.json
+G:/项目/Components/src/Shawn.Common.Ioc/bin/Debug/netstandard2.0/Shawn.Common.Ioc.dll
+G:/项目/Components/src/Shawn.Common.Ioc/obj/Debug/netstandard2.0/Shawn.Common.Ioc.csprojAssemblyReference.cache
+G:/项目/Components/src/Shawn.Common.Ioc/obj/Debug/netstandard2.0/Shawn.Common.Ioc.csproj.CoreCompileInputs.cache
+G:/项目/Components/src/Shawn.Common.Ioc/obj/Debug/netstandard2.0/Shawn.Common.Ioc.AssemblyInfoInputs.cache
+G:/项目/Components/src/Shawn.Common.Ioc/obj/Debug/netstandard2.0/Shawn.Common.Ioc.AssemblyInfo.cs
+G:/项目/Components/src/Shawn.Common.Ioc/bin/Debug/netstandard2.0/Shawn.Common.Ioc.pdb
+G:/项目/Components/src/Shawn.Common.Ioc/obj/Debug/netstandard2.0/Shawn.Common.Ioc.dll
+G:/项目/Components/src/Shawn.Common.Ioc/obj/Debug/netstandard2.0/Shawn.Common.Ioc.pdb
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Ioc/bin/Debug/netstandard2.0/Shawn.Common.Ioc.deps.json
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Ioc/bin/Debug/netstandard2.0/Shawn.Common.Ioc.dll
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Ioc/bin/Debug/netstandard2.0/Shawn.Common.Ioc.pdb
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Ioc/obj/Debug/netstandard2.0/Shawn.Common.Ioc.csprojAssemblyReference.cache
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Ioc/obj/Debug/netstandard2.0/Shawn.Common.Ioc.csproj.CoreCompileInputs.cache
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Ioc/obj/Debug/netstandard2.0/Shawn.Common.Ioc.AssemblyInfoInputs.cache
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Ioc/obj/Debug/netstandard2.0/Shawn.Common.Ioc.AssemblyInfo.cs
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Ioc/obj/Debug/netstandard2.0/Shawn.Common.Ioc.dll
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Ioc/obj/Debug/netstandard2.0/Shawn.Common.Ioc.pdb

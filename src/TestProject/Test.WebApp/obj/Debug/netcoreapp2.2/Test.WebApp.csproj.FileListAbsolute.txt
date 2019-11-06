@@ -1,34 +1,71 @@
-G:\项目\Components\src\TestProject\Test.WebApp\obj\Debug\netcoreapp2.2\Test.WebApp.csproj.CoreCompileInputs.cache
-G:\项目\Components\src\TestProject\Test.WebApp\obj\Debug\netcoreapp2.2\Test.WebApp.AssemblyInfoInputs.cache
-G:\项目\Components\src\TestProject\Test.WebApp\obj\Debug\netcoreapp2.2\Test.WebApp.AssemblyInfo.cs
-G:\项目\Components\src\TestProject\Test.WebApp\bin\Debug\netcoreapp2.2\Shawn.Common.Ioc.dll
-G:\项目\Components\src\TestProject\Test.WebApp\bin\Debug\netcoreapp2.2\Shawn.Common.Serilog.dll
-G:\项目\Components\src\TestProject\Test.WebApp\obj\Debug\netcoreapp2.2\Test.WebApp.csprojAssemblyReference.cache
-G:\项目\Components\src\TestProject\Test.WebApp\obj\Debug\netcoreapp2.2\Test.WebApp.RazorAssemblyInfo.cache
-G:\项目\Components\src\TestProject\Test.WebApp\obj\Debug\netcoreapp2.2\Test.WebApp.RazorAssemblyInfo.cs
-G:\项目\Components\src\TestProject\Test.WebApp\obj\Debug\netcoreapp2.2\Test.WebApp.TagHelpers.input.cache
-G:\项目\Components\src\TestProject\Test.WebApp\obj\Debug\netcoreapp2.2\Test.WebApp.TagHelpers.output.cache
-G:\项目\Components\src\TestProject\Test.WebApp\obj\Debug\netcoreapp2.2\Test.WebApp.RazorCoreGenerate.cache
-G:\项目\Components\src\TestProject\Test.WebApp\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
-G:\项目\Components\src\TestProject\Test.WebApp\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
-G:\项目\Components\src\TestProject\Test.WebApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
-G:\项目\Components\src\TestProject\Test.WebApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
-G:\项目\Components\src\TestProject\Test.WebApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
-G:\项目\Components\src\TestProject\Test.WebApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
-G:\项目\Components\src\TestProject\Test.WebApp\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
-G:\项目\Components\src\TestProject\Test.WebApp\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
-G:\项目\Components\src\TestProject\Test.WebApp\obj\Debug\netcoreapp2.2\Test.WebApp.RazorTargetAssemblyInfo.cache
-G:\项目\Components\src\TestProject\Test.WebApp\obj\Debug\netcoreapp2.2\Test.WebApp.RazorTargetAssemblyInfo.cs
-G:\项目\Components\src\TestProject\Test.WebApp\bin\Debug\netcoreapp2.2\Test.WebApp.deps.json
-G:\项目\Components\src\TestProject\Test.WebApp\bin\Debug\netcoreapp2.2\Test.WebApp.runtimeconfig.json
-G:\项目\Components\src\TestProject\Test.WebApp\bin\Debug\netcoreapp2.2\Test.WebApp.runtimeconfig.dev.json
-G:\项目\Components\src\TestProject\Test.WebApp\bin\Debug\netcoreapp2.2\Test.WebApp.dll
-G:\项目\Components\src\TestProject\Test.WebApp\bin\Debug\netcoreapp2.2\Test.WebApp.pdb
-G:\项目\Components\src\TestProject\Test.WebApp\bin\Debug\netcoreapp2.2\Test.WebApp.Views.dll
-G:\项目\Components\src\TestProject\Test.WebApp\bin\Debug\netcoreapp2.2\Test.WebApp.Views.pdb
-G:\项目\Components\src\TestProject\Test.WebApp\bin\Debug\netcoreapp2.2\Shawn.Common.Ioc.pdb
-G:\项目\Components\src\TestProject\Test.WebApp\bin\Debug\netcoreapp2.2\Shawn.Common.Serilog.pdb
-G:\项目\Components\src\TestProject\Test.WebApp\obj\Debug\netcoreapp2.2\Test.WebApp.Views.pdb
-G:\项目\Components\src\TestProject\Test.WebApp\obj\Debug\netcoreapp2.2\Test.WebApp.csproj.CopyComplete
-G:\项目\Components\src\TestProject\Test.WebApp\obj\Debug\netcoreapp2.2\Test.WebApp.dll
-G:\项目\Components\src\TestProject\Test.WebApp\obj\Debug\netcoreapp2.2\Test.WebApp.pdb
+G:/项目/Components/src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.csproj.CoreCompileInputs.cache
+G:/项目/Components/src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.AssemblyInfoInputs.cache
+G:/项目/Components/src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.AssemblyInfo.cs
+G:/项目/Components/src/TestProject/Test.WebApp/bin/Debug/netcoreapp2.2/Shawn.Common.Ioc.dll
+G:/项目/Components/src/TestProject/Test.WebApp/bin/Debug/netcoreapp2.2/Shawn.Common.Serilog.dll
+G:/项目/Components/src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.csprojAssemblyReference.cache
+G:/项目/Components/src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.RazorAssemblyInfo.cache
+G:/项目/Components/src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.RazorAssemblyInfo.cs
+G:/项目/Components/src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.TagHelpers.input.cache
+G:/项目/Components/src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.TagHelpers.output.cache
+G:/项目/Components/src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.RazorCoreGenerate.cache
+G:/项目/Components/src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
+G:/项目/Components/src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs
+G:/项目/Components/src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs
+G:/项目/Components/src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
+G:/项目/Components/src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
+G:/项目/Components/src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+G:/项目/Components/src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
+G:/项目/Components/src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs
+G:/项目/Components/src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.RazorTargetAssemblyInfo.cache
+G:/项目/Components/src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.RazorTargetAssemblyInfo.cs
+G:/项目/Components/src/TestProject/Test.WebApp/bin/Debug/netcoreapp2.2/Test.WebApp.deps.json
+G:/项目/Components/src/TestProject/Test.WebApp/bin/Debug/netcoreapp2.2/Test.WebApp.runtimeconfig.json
+G:/项目/Components/src/TestProject/Test.WebApp/bin/Debug/netcoreapp2.2/Test.WebApp.runtimeconfig.dev.json
+G:/项目/Components/src/TestProject/Test.WebApp/bin/Debug/netcoreapp2.2/Test.WebApp.dll
+G:/项目/Components/src/TestProject/Test.WebApp/bin/Debug/netcoreapp2.2/Test.WebApp.pdb
+G:/项目/Components/src/TestProject/Test.WebApp/bin/Debug/netcoreapp2.2/Test.WebApp.Views.dll
+G:/项目/Components/src/TestProject/Test.WebApp/bin/Debug/netcoreapp2.2/Test.WebApp.Views.pdb
+G:/项目/Components/src/TestProject/Test.WebApp/bin/Debug/netcoreapp2.2/Shawn.Common.Ioc.pdb
+G:/项目/Components/src/TestProject/Test.WebApp/bin/Debug/netcoreapp2.2/Shawn.Common.Serilog.pdb
+G:/项目/Components/src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.Views.pdb
+G:/项目/Components/src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.csproj.CopyComplete
+G:/项目/Components/src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.dll
+G:/项目/Components/src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.pdb
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/bin/Debug/netcoreapp2.2/appsettings.Development.json
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/bin/Debug/netcoreapp2.2/appsettings.json
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/bin/Debug/netcoreapp2.2/Properties/launchSettings.json
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/bin/Debug/netcoreapp2.2/Test.WebApp.deps.json
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/bin/Debug/netcoreapp2.2/Test.WebApp.runtimeconfig.json
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/bin/Debug/netcoreapp2.2/Test.WebApp.runtimeconfig.dev.json
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/bin/Debug/netcoreapp2.2/Test.WebApp.dll
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/bin/Debug/netcoreapp2.2/Test.WebApp.pdb
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/bin/Debug/netcoreapp2.2/Test.WebApp.Views.dll
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/bin/Debug/netcoreapp2.2/Test.WebApp.Views.pdb
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/bin/Debug/netcoreapp2.2/Shawn.Common.Ioc.dll
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/bin/Debug/netcoreapp2.2/Shawn.Common.Serilog.dll
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/bin/Debug/netcoreapp2.2/Shawn.Common.Ioc.pdb
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/bin/Debug/netcoreapp2.2/Shawn.Common.Serilog.pdb
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.csprojAssemblyReference.cache
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.csproj.CoreCompileInputs.cache
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.RazorAssemblyInfo.cache
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.RazorAssemblyInfo.cs
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.AssemblyInfoInputs.cache
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.AssemblyInfo.cs
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.TagHelpers.input.cache
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.TagHelpers.output.cache
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.RazorCoreGenerate.cache
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.cshtml.g.cs
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.cshtml.g.cs
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.cshtml.g.cs
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.cshtml.g.cs
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.cshtml.g.cs
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.cshtml.g.cs
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.RazorTargetAssemblyInfo.cache
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.RazorTargetAssemblyInfo.cs
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.Views.pdb
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.csproj.CopyComplete
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.dll
+/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/obj/Debug/netcoreapp2.2/Test.WebApp.pdb

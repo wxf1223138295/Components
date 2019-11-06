@@ -18,7 +18,6 @@ namespace Test.WebApp.Service
 
         public string ttt()
         {
-            _logger.Debug("ds");
             return "sssdd";
         }
     }

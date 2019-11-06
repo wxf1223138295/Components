@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Text;
+using AutofacSerilogIntegration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Serilog;
@@ -17,11 +18,14 @@ namespace Shawn.Common.Serilog
     {
         public static ShawnBootOptions UseSerilog(this ShawnBootOptions options,Action<SerilogOption> SerilogAction)
         {
-
+        
             var logger = new SerilogFactory().Create(SerilogAction);
+
+            options._IocManager.BuilderContainer.RegisterLogger(logger,autowireProperties:true);
 
             options._iServiceCollection.AddSingleton(new SerilogLoggerFactory(logger));
 
+            
             return options;
         }
     }

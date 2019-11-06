@@ -25,13 +25,13 @@ namespace Test.WebApp
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration, ILogger<Startup> log)
+        public Startup(IConfiguration configuration, Serilog.ILogger log)
         {
             Configuration = configuration;
             _logger = log;
         }
 
-        public ILogger _logger;
+        public Serilog.ILogger _logger;
         public IConfiguration Configuration { get; }
 
 
@@ -61,6 +61,9 @@ namespace Test.WebApp
                 {
                     p.pathName = "";
                     p.strTempName = "[{Timestamp:yyyy-MM-dd HH:mm:ss.fff}] level: {Level:u4}, {Message:l}{NewLine}";
+                    p.logminEvent=Serilog.Events.LogEventLevel.Information;
+                    p.logTableName="LogSerilog";
+                    p.logConnectstr=Configuration.GetValue<string>("DefaultConnectStr");
                 });
 
 
@@ -100,8 +103,7 @@ namespace Test.WebApp
             });
 
 
-
-            _logger.Debug("");
+            _logger.Debug("mesddds");
 
 
             //  var ser= (ITestAppService)provider.GetService(typeof(ITestAppService));

@@ -1,30 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "G:\\项目\\ShawnComponent\\CommonComponent\\Shawn.Common.Dapper\\Shawn.Common.Dapper.csproj": {}
+    "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Dapper/Shawn.Common.Dapper.csproj": {}
   },
   "projects": {
-    "G:\\项目\\ShawnComponent\\CommonComponent\\Shawn.Common.Dapper\\Shawn.Common.Dapper.csproj": {
+    "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Dapper/Shawn.Common.Dapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\项目\\ShawnComponent\\CommonComponent\\Shawn.Common.Dapper\\Shawn.Common.Dapper.csproj",
+        "projectUniqueName": "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Dapper/Shawn.Common.Dapper.csproj",
         "projectName": "Shawn.Common.Dapper",
-        "projectPath": "G:\\项目\\ShawnComponent\\CommonComponent\\Shawn.Common.Dapper\\Shawn.Common.Dapper.csproj",
-        "packagesPath": "C:\\Users\\RICH-IT-DEV\\.nuget\\packages\\",
-        "outputPath": "G:\\项目\\ShawnComponent\\CommonComponent\\Shawn.Common.Dapper\\obj\\",
+        "projectPath": "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Dapper/Shawn.Common.Dapper.csproj",
+        "packagesPath": "/Users/wangxiaofeng/.nuget/packages/",
+        "outputPath": "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Dapper/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\RICH-IT-DEV\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/wangxiaofeng/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
           "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
@@ -47,11 +45,19 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.30, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.7.0, )"
             }
           },
           "imports": [

@@ -1,30 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "G:\\项目\\ShawnComponent\\CommonComponent\\Shawn.Common.JsonConvert\\Shawn.Common.JsonConvert.csproj": {}
+    "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.JsonConvert/Shawn.Common.JsonConvert.csproj": {}
   },
   "projects": {
-    "G:\\项目\\ShawnComponent\\CommonComponent\\Shawn.Common.JsonConvert\\Shawn.Common.JsonConvert.csproj": {
+    "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.JsonConvert/Shawn.Common.JsonConvert.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\项目\\ShawnComponent\\CommonComponent\\Shawn.Common.JsonConvert\\Shawn.Common.JsonConvert.csproj",
+        "projectUniqueName": "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.JsonConvert/Shawn.Common.JsonConvert.csproj",
         "projectName": "Shawn.Common.JsonConvert",
-        "projectPath": "G:\\项目\\ShawnComponent\\CommonComponent\\Shawn.Common.JsonConvert\\Shawn.Common.JsonConvert.csproj",
-        "packagesPath": "C:\\Users\\RICH-IT-DEV\\.nuget\\packages\\",
-        "outputPath": "G:\\项目\\ShawnComponent\\CommonComponent\\Shawn.Common.JsonConvert\\obj\\",
+        "projectPath": "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.JsonConvert/Shawn.Common.JsonConvert.csproj",
+        "packagesPath": "/Users/wangxiaofeng/.nuget/packages/",
+        "outputPath": "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.JsonConvert/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\RICH-IT-DEV\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/wangxiaofeng/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
           "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},

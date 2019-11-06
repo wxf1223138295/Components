@@ -1,30 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "G:\\项目\\ShawnComponent\\CommonComponent\\Shawn.Common.Ioc\\Shawn.Common.Ioc.csproj": {}
+    "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Ioc/Shawn.Common.Ioc.csproj": {}
   },
   "projects": {
-    "G:\\项目\\ShawnComponent\\CommonComponent\\Shawn.Common.Ioc\\Shawn.Common.Ioc.csproj": {
+    "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Ioc/Shawn.Common.Ioc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\项目\\ShawnComponent\\CommonComponent\\Shawn.Common.Ioc\\Shawn.Common.Ioc.csproj",
+        "projectUniqueName": "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Ioc/Shawn.Common.Ioc.csproj",
         "projectName": "Shawn.Common.Ioc",
-        "projectPath": "G:\\项目\\ShawnComponent\\CommonComponent\\Shawn.Common.Ioc\\Shawn.Common.Ioc.csproj",
-        "packagesPath": "C:\\Users\\RICH-IT-DEV\\.nuget\\packages\\",
-        "outputPath": "G:\\项目\\ShawnComponent\\CommonComponent\\Shawn.Common.Ioc\\obj\\",
+        "projectPath": "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Ioc/Shawn.Common.Ioc.csproj",
+        "packagesPath": "/Users/wangxiaofeng/.nuget/packages/",
+        "outputPath": "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Ioc/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\RICH-IT-DEV\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/wangxiaofeng/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
           "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
@@ -51,7 +49,23 @@
               "target": "Package",
               "version": "[4.9.4, )"
             },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Options": {
               "target": "Package",
               "version": "[2.2.0, )"
             },

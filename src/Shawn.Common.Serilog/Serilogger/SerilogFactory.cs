@@ -21,7 +21,7 @@ namespace Shawn.Common.Serilog
 
                opt.pathName = Path.Combine($"{directory}", "Logs", $"log.txt");
             }
-            return new SerilogLoger(opt.strTempName, opt.pathName);
+            return SerilogLoger.CreateSerilog(opt.strTempName, opt.pathName,opt.logConnectstr,opt.logTableName,opt.logminEvent);
         }
     }
 }

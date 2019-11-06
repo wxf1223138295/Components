@@ -10074,7 +10074,7 @@
       ]
     },
     "System.Private.DataContractSerialization/4.3.0": {
-      "sha512": "VfskBq5/ywOYZ4cudQHvDHPtaxlt97zWr4/iDgNg/Xdl+yQyoUdcyDsPHzKQCDzJhNSpeB7W0IvTyUNdRHcuBQ==",
+      "sha512": "yDaJ2x3mMmjdZEDB4IbezSnCsnjQ4BxinKhRAaP6kEgL6Bb6jANWphs5SzyD8imqeC/3FxgsuXT6ykkiH1uUmA==",
       "type": "package",
       "path": "system.private.datacontractserialization/4.3.0",
       "files": [
@@ -12142,7 +12142,7 @@
       ]
     },
     "System.Threading.Tasks.Parallel/4.3.0": {
-      "sha512": "bDd82jrQ0ttVuhMz/FKO/njK5EAHa8I9tSootj5puCh8rOL5BmboFYVw3uvDjw5TyvmM08MjC52PV5CI0JZ+qA==",
+      "sha512": "cbjBNZHf/vQCfcdhzx7knsiygoCKgxL8mZOeocXZn5gWhCdzHIq6bYNKWX0LAJCWYP7bds4yBK8p06YkP0oa0g==",
       "type": "package",
       "path": "system.threading.tasks.parallel/4.3.0",
       "files": [
@@ -12486,7 +12486,7 @@
       ]
     },
     "System.Xml.XmlSerializer/4.3.0": {
-      "sha512": "z5hLl7PYVYlAKYNIXgDPnM63IdkwWrIuSOfGd5u9OCbuZOXQimIluYz9CQ/ZJccdnDdqcezhmKjCImrC+k9dAA==",
+      "sha512": "MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "type": "package",
       "path": "system.xml.xmlserializer/4.3.0",
       "files": [
@@ -12594,7 +12594,7 @@
       ]
     },
     "System.Xml.XPath.XDocument/4.3.0": {
-      "sha512": "UzYTvDbFXBR+0KrYEY4UnoJu7yZKTGf+EP/gT7O7s/FHzSQYRcvTYvqJhQHVDC8A5bidThBewq812qBNzQbHoQ==",
+      "sha512": "jw9oHHEIVW53mHY9PgrQa98Xo2IZ0ZjrpdOTmtvk+Rvg4tq7dydmxdNqUvJ5YwjDqhn75mBXWttWjiKhWP53LQ==",
       "type": "package",
       "path": "system.xml.xpath.xdocument/4.3.0",
       "files": [
@@ -12655,40 +12655,44 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\RICH-IT-DEV\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/wangxiaofeng/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\项目\\Components\\src\\TestProject\\Test.WebApp\\Test.WebApp.csproj",
+      "projectUniqueName": "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/Test.WebApp.csproj",
       "projectName": "Test.WebApp",
-      "projectPath": "G:\\项目\\Components\\src\\TestProject\\Test.WebApp\\Test.WebApp.csproj",
-      "packagesPath": "C:\\Users\\RICH-IT-DEV\\.nuget\\packages\\",
-      "outputPath": "G:\\项目\\Components\\src\\TestProject\\Test.WebApp\\obj\\",
+      "projectPath": "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/Test.WebApp.csproj",
+      "packagesPath": "/Users/wangxiaofeng/.nuget/packages/",
+      "outputPath": "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/TestProject/Test.WebApp/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\RICH-IT-DEV\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/wangxiaofeng/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "G:\\项目\\Components\\src\\Shawn.Common.Ioc\\Shawn.Common.Ioc.csproj": {
-              "projectPath": "G:\\项目\\Components\\src\\Shawn.Common.Ioc\\Shawn.Common.Ioc.csproj"
+            "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Ioc/Shawn.Common.Ioc.csproj": {
+              "projectPath": "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Ioc/Shawn.Common.Ioc.csproj"
             },
-            "G:\\项目\\Components\\src\\Shawn.Common.Serilog\\Shawn.Common.Serilog.csproj": {
-              "projectPath": "G:\\项目\\Components\\src\\Shawn.Common.Serilog\\Shawn.Common.Serilog.csproj"
+            "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Serilog/Shawn.Common.Serilog.csproj": {
+              "projectPath": "/Users/wangxiaofeng/equeue/XiaofengWang的文稿/C#/component /src/Shawn.Common.Serilog/Shawn.Common.Serilog.csproj"
             }
           }
         }
