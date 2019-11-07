@@ -27,14 +27,16 @@ namespace Shawn.Common.Ioc.CoreStart
             var t=obj.CreateBuilder(services);
             var provide=obj.CreateServiceProvider(t);
 
+            shawnBootstrapper.SetServiceProvide(provide);
+
             return provide;
         }
 
-        public static IServiceProvider BuildShawnServiceProvider(this IServiceCollection services)
-        {
-            var result = services.BuildServiceProvider();
-            return result;
-        }
+        //public static IServiceProvider BuildShawnServiceProvider(this IServiceCollection services)
+        //{
+        //    var result = services.BuildServiceProvider();
+        //    return result;
+        //}
 
     }
 }

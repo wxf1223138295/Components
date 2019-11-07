@@ -122,6 +122,8 @@ namespace Test.WebApp
             });
 
             var boo=(ShawnBootstrapper) provider.GetService(typeof(ShawnBootstrapper));
+            var yy=(ITestAppService)provider.GetService(typeof(ITestAppService));
+
             var tty =boo.IocManager.iContainer.Resolve<ITestAppService>().ttt();
 
             boo.IocManager.iContainer.Resolve<Serilog.ILogger>().Error("start");

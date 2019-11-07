@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test.WebApp", "TestProject\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test.SericeProvide", "Test.SericeProvide\Test.SericeProvide.csproj", "{ADE3B88C-8CA5-45B1-AD15-BAD08DCC526D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shawn.Common.RichReturnModel", "Shawn.Common.RichReturnModel\Shawn.Common.RichReturnModel.csproj", "{FF18BCC4-B4E1-4368-B3D1-C5126E1FACD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{ADE3B88C-8CA5-45B1-AD15-BAD08DCC526D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADE3B88C-8CA5-45B1-AD15-BAD08DCC526D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADE3B88C-8CA5-45B1-AD15-BAD08DCC526D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF18BCC4-B4E1-4368-B3D1-C5126E1FACD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF18BCC4-B4E1-4368-B3D1-C5126E1FACD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF18BCC4-B4E1-4368-B3D1-C5126E1FACD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF18BCC4-B4E1-4368-B3D1-C5126E1FACD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

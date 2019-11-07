@@ -11,7 +11,7 @@ namespace Shawn.Common.Ioc
     {
         public IIocManager IocManager { get; }
 
-       
+        public IServiceProvider ServiceProvider { get; private set; }
 
         public static ShawnBootstrapper Create(Action<ShawnBootOptions> optionsAction, IServiceCollection iServiceCollection)
         {
@@ -27,5 +27,11 @@ namespace Shawn.Common.Ioc
             IocManager = options._IocManager;
 
         }
+
+        public void SetServiceProvide(IServiceProvider _provider)
+        {
+            ServiceProvider = _provider;
+        }
+
     }
 }
